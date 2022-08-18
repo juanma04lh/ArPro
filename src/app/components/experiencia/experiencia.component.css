@@ -1,0 +1,87 @@
+.contenedor_experiencia{
+    border:2px solid rgb(184, 184, 184);
+    border-radius: 10px;
+    background-color: rgba(162, 190, 197, 0.801);
+}
+
+.encabezado{
+    display: flex;
+    justify-content:space-between;
+    padding: 20PX;
+}
+
+.titulo{
+    width:20%;
+    font-size: 30px;
+}
+
+.expandir{
+    width:30px;
+    height:30px;
+    background-image: url(../../../assets/mas_azul.png);
+    background-size: cover;
+    margin-top: auto;
+    margin-bottom: auto;
+    border:none;
+    transform: rotate(-90deg);
+
+}
+
+.bloque{
+    border:2px solid rgb(184, 184, 184);
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-between;
+    padding: 20PX;
+
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+
+}
+
+.titulo_referente{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+
+.experiencia_lugar_y_tiempo{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.experiencia_descripción{
+    width:50%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.guardar_eliminar_experiencia{
+    width:20%;
+    height:12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: end;
+
+
+}
+
+.guardar_experiencia{
+    height:20px;
+    width:20px;
+    background-image: url(../../../assets/diskete_azul.png);
+    background-size: cover;
+
+}
+
+.eliminar_experiencia{
+    height:20px;
+    width:20px;
+    background-image: url(../../../assets/papelera_azul.png);
+    background-size: cover;
+}
