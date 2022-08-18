@@ -1,0 +1,9 @@
+.footer{
+    border:2px solid rgb(184, 184, 184);
+    border-radius: 10px;
+    background-color: rgba(162, 190, 197, 0.801);
+    text-align: center;
+    padding:20px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium';
+}

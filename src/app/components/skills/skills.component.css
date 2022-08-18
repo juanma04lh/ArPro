@@ -6,10 +6,14 @@
     
 }
 
-.container{
+.contenedor{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
+    padding: 20PX;
+    border:2px solid rgb(184, 184, 184);
+    border-radius: 10px;
+    
 }
 
 .encabezado{
@@ -18,9 +22,6 @@
     padding: 20PX;
 }
 
-.habilidades{
-    width:100%;
-}
 
 .titulo{
     width:20%;

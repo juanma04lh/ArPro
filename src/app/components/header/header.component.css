@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .logo_arg_pro{
@@ -17,15 +18,17 @@
 }
 
 .login{
-    height:50px;
-    padding:5px;
-    margin-top: 22.5px;
+    height:40px;
+    width:80px;
+    font-size: 17px;
+    background-color: rgba(44, 198, 236, 0.801);
+    font-family: 'Franklin Gothic Medium';
+    color:white;
 }
 
 .social{
     height:50px;
     padding:5px;
-    margin-top: 22.5px;
 }
 
 .banner{
