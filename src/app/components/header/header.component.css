@@ -1,0 +1,38 @@
+.header{
+    background-color: rgba(162, 190, 197, 0.801);
+    border:2px solid rgb(184, 184, 184);
+    border-top-right-radius:10px;
+    border-top-left-radius: 10px;
+}
+
+.header_buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo_arg_pro{
+    height: 100px;
+    padding:5px;
+}
+
+.login{
+    height:50px;
+    padding:5px;
+    margin-top: 22.5px;
+}
+
+.social{
+    height:50px;
+    padding:5px;
+    margin-top: 22.5px;
+}
+
+.banner{
+    height:30vh;
+    background-image: url(../../../assets/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius: 10px;
+}
