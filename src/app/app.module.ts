@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { InfoComponent } from './components/info/info.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { EstudiosComponent } from './components/estudios/estudios.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { EstudiosComponent } from './components/estudios/estudios.component';
     HeaderComponent,
     InfoComponent,
     ExperienciaComponent,
-    EstudiosComponent
+    EstudiosComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
